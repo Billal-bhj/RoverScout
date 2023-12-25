@@ -17,7 +17,7 @@ export default function Slider({ info, title, image }) {
       ) : (
         false
       )}
-      {title ? <div className="flex w-full justify-center items-center h-80" >{title}</div> : false}
+      {title ? <div className="flex w-full justify-center items-center h-80 " >{title}</div> : false}
     </section>
   );
 }
