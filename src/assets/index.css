@@ -9,7 +9,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.{
-    @apply font-bold
-}

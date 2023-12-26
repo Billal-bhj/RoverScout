@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./views/home/Home";
 import About from "./views/about/About";
@@ -8,21 +8,22 @@ import Login from "./views/Login/Login";
 import Register from "./views/register/Register";
 
 function App() {
-
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<MainLayout />}>
-          <Route index element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/gallary" element={<Gallery/>} />
-          <Route path="/members" element={<Members/>} />
-          <Route path="/login" element={<Login/>} />
-          <Route path="/register" element={<Register/>} />
-        </Route>
-      </Routes>
-    </Router>
-  )
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/gallary" element={<Gallery />} />
+            <Route path="/members" element={<Members />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </Route>
+        </Routes>
+      </Router>
+    </>
+  );
 }
 
-export default App
+export default App;

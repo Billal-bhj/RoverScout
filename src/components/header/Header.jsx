@@ -5,11 +5,11 @@ import UsersNav from "./UsersNav";
 
 export default function Header() {
   return (
-    <header className="shadow-lg shadow-primary/40">
+    <header className="shadow-lg shadow-primary/40 z-50 sticky top-0 w-full bg-white">
       <div className=" container m-auto flex justify-between p-4 ">
         <NavLink
           to="/"
-          className="brand text-2xl text-primary font-notoSans font-bold"
+          className=" pl-5 brand text-2xl text-primary font-notoSans font-bold"
         >
           Rover
         </NavLink>

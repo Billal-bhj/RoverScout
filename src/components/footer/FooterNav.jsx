@@ -7,16 +7,16 @@ export default function FooterNav() {
       <h1 className=" font-bold">Top Reference</h1>
       <ul className="pl-1 text-white/60 flex flex-col gap-3 pt-3">
         <li>
-          <NavLink className={({isActive}) => `${isActive ? "text-white" : ""} hover:text-white hover:pl-2 duration-300`} to="/">Home</NavLink>
+          <NavLink className={({isActive}) => `${isActive ? "text-white pl-2" : ""} hover:text-white duration-300`} to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink className={({isActive}) => `${isActive ? "text-white" : ""} hover:text-white hover:pl-2 duration-300`} to="/about">About</NavLink>
+          <NavLink className={({isActive}) => `${isActive ? "text-white pl-2" : ""} hover:text-white duration-300`} to="/about">About</NavLink>
         </li>
         <li>
-          <NavLink className={({isActive}) => `${isActive ? "text-white" : ""} hover:text-white hover:pl-2 duration-300`} to="/gallary">Gallary</NavLink>
+          <NavLink className={({isActive}) => `${isActive ? "text-white pl-2" : ""} hover:text-white duration-300`} to="/gallary">Gallary</NavLink>
         </li>
         <li>
-          <NavLink className={({isActive}) => `${isActive ? "text-white" : ""} hover:text-white hover:pl-2 duration-300`} to="/members">Members</NavLink>
+          <NavLink className={({isActive}) => `${isActive ? "text-white pl-2" : ""} hover:text-white duration-300`} to="/members">Members</NavLink>
         </li>
       </ul>
     </nav>

@@ -7,9 +7,12 @@ export default {
         primary: "rgb(101 22 112)",
       },
       fontFamily: {
-        lato: ['Lato', 'sans-serif'],
-        notoSans: ['Noto Sans', 'sans-serif'],
-      }
+        lato: ["Lato", "sans-serif"],
+        notoSans: ["Noto Sans", "sans-serif"],
+      },
+      backgroundImage: {
+        sliderBg : "/public/7517.jpg"
+      },
     },
   },
   plugins: [],

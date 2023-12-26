@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import PageSlider from "../../components/PageSlider";
+import image from '/7517.jpg'
 
 export default function Login() {
   return (
-    <div>Login</div>
-  )
+    <div>
+      <PageSlider img={image} title={"Working on it"} />
+    </div>
+  );
 }
