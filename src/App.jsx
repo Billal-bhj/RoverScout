@@ -4,7 +4,7 @@ import Home from "./views/home/Home";
 import About from "./views/about/About";
 import Members from "./views/members/Members";
 import Gallery from "./views/gallery/Gallery";
-import Login from "./views/Login/Login";
+import Login from "./views/login/Login";
 import Register from "./views/register/Register";
 
 function App() {
